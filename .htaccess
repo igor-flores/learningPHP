@@ -1,0 +1,10 @@
+RewriteEngine On
+RewriteBase /learningPHP/
+RewriteCond %{SCRIPT_FILENAME} !-f
+RewriteCond %{SCRIPT_FILENAME} !-d
+
+RewriteRule ^introducao/4/?$     examples/introducao/4funcoes.php         [NC,L]
+RewriteRule ^introducao/3/?$     examples/introducao/3repeticao.php       [NC,L]
+RewriteRule ^introducao/2/?$     examples/introducao/2condicionais.php    [NC,L]
+RewriteRule ^introducao/1/?$     examples/introducao/1basico.php          [NC,L]
+RewriteRule ^/$                  index.php                                [NC,L]
