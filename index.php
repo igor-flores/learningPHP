@@ -37,12 +37,14 @@
                     <br>
                     <h3>Formulários</h3>
                     <pre>examples/forms/</pre>
-<!--                    <ul class="list-group list-group-flush">-->
-<!--                        <li class="list-group-item"><a href="introducao/1/" target="_blank">[1basico.php] Noções básicas</a> </li>-->
-<!--                    </ul>-->
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><a href="forms/" target="_blank">[0form.php] Formulário em HTML</a> </li>
+                        <li class="list-group-item"><a href="forms/1basico.php" target="_blank">[1basico.php] Formulário em HTML</a> </li>
+                        <li class="list-group-item"><a href="forms/2tratamento.php" target="_blank">[2tratamento.php] Formulário em HTML</a> </li>
+                    </ul>
 
                 </div>
             </div>
-        </div>
+        </div><br><br>
     </body>
 </html>
