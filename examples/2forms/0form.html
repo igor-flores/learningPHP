@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Formulário em HTML</title>
+        <!-- Inclusão do Bootstrap -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        <!-- Fim da inclusão do Bootstrap -->
+    </head>
+    <body><br>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <h2>1. Formulário básico</h2>
+                    <!--
+                    O action serve para "dizer" para onde irão os dados do formulário
+                    O method é o tipo de envio POST ou GET
+                    -->
+                    <form action="1basico.php" method="get">
+                        <input class="form-control" name="nome" placeholder="Insira seu nome"><br>
+                        <input type="submit" name="enviar" value="Enviar" class="btn btn-outline-success">
+                    </form>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <h2>2. Tratamento de inputs</h2>
+                    <form action="2tratamento.php" method="get">
+                        <input class="form-control" name="n1" placeholder="Insira um numero"><br>
+                        <input class="form-control" name="n2" placeholder="Insira outro numero"><br>
+                        <input type="submit" name="enviar" value="Enviar" class="btn btn-outline-success">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
