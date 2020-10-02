@@ -24,24 +24,38 @@
                     <h2>Bem vindo!</h2>
                     <p>Este repositório usa como referência o <a href="">manual do PHP</a> e para sua estilização o framework <b><a href="https://getbootstrap.com/docs/4.5/getting-started/introduction/">Bootstrap v.4.5.2</a></b>.</p>
                     <p>Abaixo estão separados em módulos, exemplos sobre determinados assuntos. Os links disponíveis mostram o código interpretado, para a compreensão é necessário abrir os códigos. Você pode encontrá-los seguindo os diretórios embaixo dos módulos, entre os colchetes [ ] estão o nome dos arquivos de cada exemplo.</p>
+                    <p>No módulo de Banco de Dados é utilizado como modelo o banco sakila, você deve criá-lo e importar o código sakila.sql incluso nesse repositório.</p>
                 </div>
                 <div class="col-lg-8 col-sm-12">
                     <h3>Introdução</h3>
                     <pre>examples/introducao/</pre>
                     <ul class="list-group list-group-flush">
-                        <li class="list-group-item"><a href="introducao/1/" target="_blank">[1basico.php] Noções básicas</a> </li>
-                        <li class="list-group-item"><a href="introducao/2/" target="_blank">[2condicionais.php] Estruturas Condicionais</a> </li>
-                        <li class="list-group-item"><a href="introducao/3/" target="_blank">[3repeticao.php] Laços de Repetição</a> </li>
-                        <li class="list-group-item"><a href="introducao/4/" target="_blank">[4funcoes.php] Criar Funções</r></a> </li>
+                        <li class="list-group-item"><a href="examples/1introducao/1basico.php" target="_blank">[1basico.php] Noções básicas</a> </li>
+                        <li class="list-group-item"><a href="examples/1introducao/2condicionais.php" target="_blank">[2condicionais.php] Estruturas Condicionais</a> </li>
+                        <li class="list-group-item"><a href="examples/1introducao/3repeticao.php" target="_blank">[3repeticao.php] Laços de Repetição</a> </li>
+                        <li class="list-group-item"><a href="examples/1introducao/4funcoes.php" target="_blank">[4funcoes.php] Criar Funções</r></a> </li>
                     </ul>
                     <br>
                     <h3>Formulários</h3>
                     <pre>examples/forms/</pre>
                     <ul class="list-group list-group-flush">
-                        <li class="list-group-item"><a href="forms/" target="_blank">[0form.php] Formulário em HTML</a> </li>
-                        <li class="list-group-item"><a href="forms/1basico.php" target="_blank">[1basico.php] Formulário em HTML</a> </li>
-                        <li class="list-group-item"><a href="forms/2tratamento.php" target="_blank">[2tratamento.php] Formulário em HTML</a> </li>
+                        <li class="list-group-item"><a href="examples/2forms/0form.html" target="_blank">[0form.php] Formulário em HTML</a> </li>
+                        <li class="list-group-item">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item"><a href="examples/2forms/1basico.php" target="_blank">[1basico.php] Formulário em HTML</a> </li>
+                                <li class="list-group-item"><a href="examples/2forms/2tratamento.php" target="_blank">[2tratamento.php] Formulário em HTML</a> </li>
+                            </ul>
+                        </li>
+                        <li class="list-group-item"><a href="examples/2forms/3mesmaPagina.php" target="_blank">[3mesmaPagina.php] Tratar formulário na mesma página</a> </li>
+                        <li class="list-group-item"><a href="examples/2forms/4arquivos.php" target="_blank">[4arquivos.php] Tratar arquivos</a> </li>
                     </ul>
+                    <br>
+<!--                    <h3>Banco de Dados</h3>-->
+<!--                    <pre>examples/mysql/</pre>-->
+<!--                    <ul class="list-group list-group-flush">-->
+<!--                        <li class="list-group-item"><a href="examples/3mysql/1basico.php" target="_blank">[1basico.php] Noções básicas</a> </li>-->
+<!--                    </ul>-->
+<!--                    <br>-->
 
                 </div>
             </div>
